@@ -1,0 +1,48 @@
+.headText {
+	background: url('images/marble.jpg');
+	width: 256;
+	font-family: Comic Sans MS;
+	color: black;
+	padding-left: 10;
+	font-weight: bold
+	}
+.headEnd {
+	background: url('images/marble_out.jpg');
+	font-family: Comic Sans MS;
+	width: 128
+	}
+.title {
+	color: red
+	}
+.blurb {
+	margin-left: 15
+	}
+.box {
+	border-top: 2px Black solid;
+	border-left: 2px Black solid;
+	border-right: 2px Black solid;
+	border-bottom: 2px Black solid
+	}
+#spotlight {
+	filter:light
+	}
+A	{
+	color: blue;
+	text-decoration: 'none'
+	}
+A:hover {
+	color: darkblue;
+	text-decoration: 'underline'
+	}
+  @font-face {
+    font-family: Wingdings 3;
+    font-style:  normal;
+    font-weight: normal;
+    src: url('fonts/monotyp2.eot');
+  }
+  @font-face {
+    font-family: Monotype Sorts;
+    font-style:  normal;
+    font-weight: normal;
+    src: url('fonts/wingdin0.eot');
+  }

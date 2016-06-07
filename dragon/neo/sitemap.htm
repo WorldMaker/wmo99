@@ -1,0 +1,66 @@
+<SCRIPT>
+sitemap = "<table width=100% cols=2 cellspacing=10>"
+sitemap += "<tr><td width=50%>"
+sitemap += blCreateTitle("Top")
+tempTable = new ltDataArray(0)
+tempTable = linkTable.Search("department","top")
+if (tempTable.isEmpty == false) {
+	for (i=0;i<=tempTable.extent;i++) {
+		sitemap += blCreateBlurb(lCreateIntLink(tempTable[i].name))
+	}
+}
+sitemap += "</td><td>"
+sitemap += blCreateTitle("Eyes")
+tempTable = linkTable.Search("department","eyes")
+if (tempTable.isEmpty == false) {
+	for (i=0;i<=tempTable.extent;i++) {
+		sitemap += blCreateBlurb(lCreateIntLink(tempTable[i].name))
+	}
+}
+sitemap += "</td></tr><tr><td>"
+sitemap += blCreateTitle("Prints")
+tempTable = linkTable.Search("department","prints")
+if (tempTable.isEmpty == false) {
+	for (i=0;i<=tempTable.extent;i++) {
+		sitemap += blCreateBlurb(lCreateIntLink(tempTable[i].name))
+	}
+}
+sitemap += "</td><td>"
+sitemap += blCreateTitle("Books")
+tempTable = linkTable.Search("department","books")
+if (tempTable.isEmpty == false) {
+	for (i=0;i<=tempTable.extent;i++) {
+		sitemap += blCreateBlurb(lCreateIntLink(tempTable[i].name))
+	}
+}
+sitemap += "</td></tr><tr><td>"
+sitemap += blCreateTitle("Portal")
+tempTable = linkTable.Search("department","portal")
+if (tempTable.isEmpty == false) {
+	for (i=0;i<=tempTable.extent;i++) {
+		sitemap += blCreateBlurb(lCreateIntLink(tempTable[i].name))
+	}
+}
+sitemap += "</td><td>"
+sitemap += blCreateTitle("WorldMaker Online")
+tempTable = linkTable.Search("department","wmo")
+if (tempTable.isEmpty == false) {
+	for (i=0;i<=tempTable.extent;i++) {
+		sitemap += blCreateBlurb(lCreateIntLink(tempTable[i].name))
+	}
+}
+sitemap += "</td></tr><tr><td>"
+sitemap += blCreateTitle("Realm")
+tempTable = linkTable.Search("department","realm")
+if (tempTable.isEmpty == false) {
+	for (i=0;i<=tempTable.extent;i++) {
+		sitemap += blCreateBlurb(lCreateIntLink(tempTable[i].name))
+	}
+}
+sitemap += "</td></tr></table>"
+
+document.write(
+	blCreateHeader("Sitemap")+
+	sitemap
+)
+</SCRIPT>

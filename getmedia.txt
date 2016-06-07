@@ -1,0 +1,6 @@
+<BR><CENTER>
+  <A HREF="http://microsoft.com/windows/mediaplayer/download/default.asp">
+  <IMG SRC="type path to logo image here" WIDTH="65" 
+  HEIGHT="57" BORDER="0"
+  ALT="Get Windows Media Player" VSPACE="7"></A>
+  </CENTER><BR>

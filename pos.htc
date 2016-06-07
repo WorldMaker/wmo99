@@ -1,0 +1,38 @@
+<PUBLIC:COMPONENT NAME="ID_POSITION">
+<PUBLIC:PROPERTY NAME="vpos">
+<PUBLIC:PROPERTY NAME="hpos">
+<SCRIPT>
+// Copyright 1999 InsideDHTML.com, LLC. All rights reserved.
+// For more information, see www.insideDHTML.com
+// This behavior can be reproduced as long as this copyright
+// notice is not removed.
+
+var hExpr = "",vExpr = ""
+
+switch (vpos) {
+	case "top":
+		vExpr = "document.body.scrollTop+offsetHeight-offsetHeight"
+		break;
+	case "middle":
+		vExpr = "document.body.scrollTop + ((document.body.clientHeight-offsetHeight)/2)"
+		break;
+	default:
+		vExpr = "document.body.scrollTop + document.body.clientHeight-offsetHeight"
+}
+
+switch (hpos) {
+	case "left":
+		hExpr = "document.body.scrollLeft + offsetLeft - offsetLeft"
+		break;
+	case "center":
+		hExpr = "document.body.scrollLeft + ((document.body.clientWidth-offsetWidth)/2)"
+		break;
+	default:
+		hExpr = "document.body.scrollLeft + document.body.clientWidth-offsetWidth"
+}
+
+style.position = "absolute"
+style.setExpression("top",vExpr)
+style.setExpression("left",hExpr)
+</SCRIPT>
+</PUBLIC:COMPONENT>

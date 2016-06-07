@@ -1,0 +1,121 @@
+IMG		{	
+			border: 0
+		}
+BODY 		{
+			background: black
+		}
+A 		{
+			color: yellow;
+			text-decoration: none;
+		}
+A:hover 	{
+			text-decoration: underline;
+			background: red;
+			color: white
+		}
+.intext 	{
+			margin-left: 1em;
+			font-family: Comic Sans MS; 
+			color: Red;
+		}
+.bar 		{ 
+			font-family: Comic Sans MS;
+			font-size: medium; 
+			color: Black; 
+			background: Blue; 
+			text-valign: top 
+		} 
+.comm 		{ 
+			margin-left: 9em; 
+			margin-right: 9em; 
+			font-family: Verdana; 
+			color: Black; 
+			background: Yellow 
+		} 
+.menu 		{ 
+			font-size: 12pt; 
+			font-family: Verdana; 
+			text-align: left; 
+			cursor: hand 
+		} 
+.hiddenmenu 	{ 
+			margin-left: 2em; 
+			font-size: 8pt; 
+			font-family: Verdana; 
+			text-align: left; 
+			font-style: italic
+		} 
+.click		{
+			font-size: 12pt;
+			font-family: Monotype.Com, FixedSys;
+			cursor: hand;
+			font-width: Bold;
+			color: black;
+			text-decoration: none
+		}
+.smclick	{
+			font-size: 8pt;
+			font-family: Monotype.Com, FixedSys;
+			cursor: hand;
+			font-width: Bold;
+			color: black;
+			text-decoration: none
+		}
+EM		{ 
+			color: Blue; 
+			font-size: larger; 
+			font-weight: Bold 
+		}
+H1		{ 
+			font-size: x-large; 
+			color: Yellow; 
+			font-weight: Bold;
+			background: black
+		}
+H2		{ 
+			font-size: large; 
+			color: Orange 
+		}
+H3		{
+			font-size: medium;
+			color: Aqua
+		}
+H3.byline	{ 
+			margin-left: 2em; 
+			font-size: medium; 
+			color: Aqua; 
+			font-style: italic 
+		}
+TD.nhead	{
+			font-size: large;
+			color: Cyan;
+			font-width: bold
+		}
+TD.nmain	{
+			font-size: medium;
+			color: Chartreuse
+		}
+HR		{
+			margin-right: 9em;
+			margin-left: 9em;
+			color: Aqua
+		}
+CODE		{
+			color: Purple;
+			font-family: Verdana
+		}
+.wmsignature	{
+			color: Red;
+			font-family: Signature;
+			font-size: large;
+			background: Yellow;
+		}
+
+@media screen	{
+	IMG.float	{
+				behavior: url(pos.htc)
+			}
+	HR		{
+				behavior: url(coolrule.htc)
+			}
+		}

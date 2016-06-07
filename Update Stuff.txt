@@ -1,0 +1,22 @@
+Body:
+<BODY ID="body">
+
+Corner:
+<DIV ID="corner"><IMG SRC="images/corner.gif" ALIGN="top"></DIV>
+
+Above <B>WorldMaker...:
+<SPAN ID="tray"></SPAN>
+
+Logo & CornerB:
+<DIV ID="logo"><IMG SRC="images/logo.gif" ALIGN="right"></DIV>
+<DIV ID="cornerb"><IMG SRC="images/cornerb.gif"></DIV>
+
+CornerD:
+<DIV ID="cornerd"><IMG SRC="images/cornerd.gif" ALIGN="absbottom"></DIV>
+
+CornerC:
+<DIV ID="cornerc"><IMG SRC="images/cornerc.gif" ALIGN="absbottom"></DIV>
+
+Before </BODY>:
+<DIV ID="wmosm"><A HREF="http://members.xoom.com/WrldMakr/"><IMG SRC="images/wmosm.gif" CLASS="float"></A></DIV>
+<SCRIPT SRC="logo.js"></SCRIPT>
